@@ -16,9 +16,9 @@ Personal dashboard application to manage some everyday things, provide e.g weath
 ### Technologies used:
 
 - NestJS / MongoDB backend
-- Angular with Angular Material frontend
+- Angular with Angular Material for web frontend
+- React with Material UI for PWA frontend
 - TypeScript
-- NPM workspaces
 - Docker & Docker Compose
 - CI/CD with GitHub actions
 - Jest & Cypress for testing
