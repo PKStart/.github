@@ -1,17 +1,16 @@
 # PKStart
 
-Personal dashboard application to manage some everyday things, provide e.g weather information and give me easy access to my favorite shortcuts.
-
-![PK Start gif](https://stuff.p-kin.com/screentogif/pkstart.gif)
+Personal dashboard application to manage some everyday convenience things, provide e.g weather information and give me easy access to my favorite shortcuts.
 
 ### Features:
 
-- Email based, passwordless authentication with JWT
 - Notes, shortcuts, personal documents and user data are handled in a database
 - Birthday calendar and a Korean dicitonary are fetched from Google Sheets
 - Location and weather information from 3rd party APIs such as LocationIQ and OpenWeatherMap
+- Local API feature: handle my Logitech G502 mouse profiles using shell scrips and a local API
+- Email based, passwordless authentication with JWT
 - Full data backup service
-- Dockerized, automated integration and E2E tests, automated deployments
+- Dockerized, automated unit, integration and E2E tests, automated deployments
 
 ### Technologies used:
 
@@ -21,4 +20,8 @@ Personal dashboard application to manage some everyday things, provide e.g weath
 - TypeScript
 - Docker & Docker Compose
 - CI/CD with GitHub actions
-- Jest & Cypress for testing
+- Jest & Supertest for API testing
+- Karma & Jasmine for Angular testing
+- Cypress for E2E testing
+
+![PK Start gif](https://stuff.p-kin.com/screentogif/pkstart.gif)
