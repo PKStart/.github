@@ -7,6 +7,7 @@ Personal dashboard application to manage some everyday convenience things, provi
 - Notes, shortcuts, personal documents and user data are handled in a database
 - Birthday calendar and a Korean dicitonary are fetched from Google Sheets
 - Location and weather information from 3rd party APIs such as LocationIQ and OpenWeatherMap
+- Cycling with Strava API integration: follow stats, track goals, set maintenance chores
 - Local API feature: handle my Logitech G502 mouse profiles using shell scrips and a local API
 - Email based, passwordless authentication with JWT
 - Full data backup service
